@@ -32,16 +32,16 @@ class Download extends React.Component {
           <Row className="justify-content-md-center">
             <Col className="text-center" lg="8" md="12">
               <h2 className="title">
-                Do you love this Bootstrap 4 React Design System?
+                What we do
               </h2>
               <h4 className="description">
-                Cause if you do, it can be yours for FREE. Hit the button below
-                to navigate to Creative Tim where you can find the design system
-                in React format. Start a new project or give an old Bootstrap
-                project a new look!
+              LungBot is designed from the ground-up to deliver the most accurate and quantitative
+  reports for referring pulmonologists. Built using deep learning technology trained on thousanda of X-Ray images.
+  Recent advances in artificial intelligence and machine learning have demonstrated that deep learning technologies have
+  superiority in solving various X-ray analysis tasks involving image classification.
               </h4>
             </Col>
-            <Col className="text-center" lg="8" md="12">
+            {/* <Col className="text-center" lg="8" md="12">
               <Button
                 className="btn-round"
                 color="info"
@@ -102,8 +102,8 @@ class Download extends React.Component {
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip877922017">
                 Star on Github
-              </UncontrolledTooltip>
-            </Col>
+              </UncontrolledTooltip> */}
+            {/* </Col> */}
           </Row>
         </Container>
       </div>

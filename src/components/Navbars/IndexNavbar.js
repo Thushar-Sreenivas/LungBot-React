@@ -96,7 +96,7 @@ class ComponentsNavbar extends React.Component {
         expand="lg"
       >
         <Container>
-          <div className="navbar-translate">
+          {/* <div className="navbar-translate">
             <NavbarBrand
               to="/"
               tag={Link}
@@ -117,7 +117,7 @@ class ComponentsNavbar extends React.Component {
               <span className="navbar-toggler-bar bar2" />
               <span className="navbar-toggler-bar bar3" />
             </button>
-          </div>
+          </div> */}
           <Collapse
             className={"justify-content-end " + this.state.collapseOut}
             navbar
@@ -125,7 +125,7 @@ class ComponentsNavbar extends React.Component {
             onExiting={this.onCollapseExiting}
             onExited={this.onCollapseExited}
           >
-            <div className="navbar-collapse-header">
+            {/* <div className="navbar-collapse-header">
               <Row>
                 <Col className="collapse-brand" xs="6">
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -142,9 +142,9 @@ class ComponentsNavbar extends React.Component {
                   </button>
                 </Col>
               </Row>
-            </div>
+            </div> */}
             <Nav navbar>
-              <NavItem className="p-0">
+              {/* <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
                   href="https://twitter.com/CreativeTim"
@@ -179,8 +179,10 @@ class ComponentsNavbar extends React.Component {
                   <i className="fab fa-instagram" />
                   <p className="d-lg-none d-xl-none">Instagram</p>
                 </NavLink>
-              </NavItem>
-              <UncontrolledDropdown nav>
+              </NavItem> */}
+
+              
+              {/* <UncontrolledDropdown nav>
                 <DropdownToggle
                   caret
                   color="default"
@@ -190,7 +192,7 @@ class ComponentsNavbar extends React.Component {
                   onClick={e => e.preventDefault()}
                 >
                   <i className="fa fa-cogs d-lg-none d-xl-none" />
-                  Getting started
+                  Diagnose
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-with-icons">
                   <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/tutorial">
@@ -210,7 +212,8 @@ class ComponentsNavbar extends React.Component {
                     Profile Page
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>
+              </UncontrolledDropdown> */}
+
               <NavItem>
                <Button
                  className="nav-link d-none d-lg-block"
@@ -218,10 +221,10 @@ class ComponentsNavbar extends React.Component {
                  target="_blank"
                  href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-user-archive-index-navbar-upgrade-pro"
                >
-                 <i className="tim-icons icon-spaceship" /> Upgrade to PRO
+                 <i className="tim-icons icon-spaceship" /> Diagnose
                </Button>
              </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <Button
                   className="nav-link d-none d-lg-block"
                   color="default"
@@ -229,7 +232,7 @@ class ComponentsNavbar extends React.Component {
                 >
                   <i className="tim-icons icon-cloud-download-93" /> Download
                 </Button>
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Collapse>
         </Container>

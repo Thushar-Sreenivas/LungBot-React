@@ -15,7 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React, {useEffect} from "react";
 // react plugin used to create charts
 import { Line } from "react-chartjs-2";
 // reactstrap components
@@ -39,14 +39,15 @@ import Footer from "components/Footer/Footer.js";
 
 import bigChartData from "variables/charts.js";
 
-class LandingPage extends React.Component {
-  componentDidMount() {
+function LandingPage()  {
+  
+  useEffect(() => {
     document.body.classList.toggle("landing-page");
-  }
-  componentWillUnmount() {
-    document.body.classList.toggle("landing-page");
-  }
-  render() {
+    return () => {
+      document.body.classList.toggle("landing-page");
+    }
+  })
+
     return (
       <>
         <ExamplesNavbar />
@@ -589,7 +590,6 @@ class LandingPage extends React.Component {
         </div>
       </>
     );
-  }
 }
 
 export default LandingPage;
