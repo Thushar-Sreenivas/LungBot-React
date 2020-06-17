@@ -24,7 +24,7 @@ import "assets/scss/blk-design-system-react.scss?v=1.1.0";
 import "assets/demo/demo.css";
 
 import Index from "views/Index.js";
-import LandingPage from "views/examples/LandingPage.js";
+import Diagnose from "views/examples/Diagnose.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 
@@ -34,7 +34,7 @@ ReactDOM.render(
       <Route path="/components" render={props => <Index {...props} />} />
       <Route
         path="/landing-page"
-        render={props => <LandingPage {...props} />}
+        render={props => <Diagnose {...props} />}
       />
       <Route
         path="/register-page"

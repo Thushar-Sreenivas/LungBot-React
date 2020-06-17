@@ -32,7 +32,7 @@ function Index () {
  
     return (
       <>
-        {/* <IndexNavbar /> */}
+        <IndexNavbar />
         <div className="wrapper">
           <PageHeader />
           <div className="main">

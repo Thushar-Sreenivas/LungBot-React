@@ -181,7 +181,6 @@ class ComponentsNavbar extends React.Component {
                 </NavLink>
               </NavItem> */}
 
-              
               {/* <UncontrolledDropdown nav>
                 <DropdownToggle
                   caret
@@ -213,17 +212,39 @@ class ComponentsNavbar extends React.Component {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown> */}
-
+              {/* <NavItem>
+                <Button
+                  className="nav-link d-none d-lg-block"
+                  color="primary"
+                  target="_blank"
+                  to="/landing-page"
+                  tag={Link}
+                >
+                  <i className="tim-icons icon-spaceship" /> Login
+                </Button>
+              </NavItem> */}
               <NavItem>
-               <Button
-                 className="nav-link d-none d-lg-block"
-                 color="primary"
-                 target="_blank"
-                 href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-user-archive-index-navbar-upgrade-pro"
-               >
-                 <i className="tim-icons icon-spaceship" /> Diagnose
-               </Button>
-             </NavItem>
+                <Button
+                  className="nav-link d-none d-lg-block"
+                  color="primary"
+                  target="_blank"
+                  to="/register-page"
+                  tag={Link}
+                >
+                  <i className="tim-icons icon-spaceship" /> Signup
+                </Button>
+              </NavItem>
+              <NavItem>
+                <Button
+                  className="nav-link d-none d-lg-block"
+                  color="primary"
+                  target="_blank"
+                  to="/landing-page"
+                  tag={Link}
+                >
+                  <i className="tim-icons icon-spaceship" /> Diagnose
+                </Button>
+              </NavItem>
               {/* <NavItem>
                 <Button
                   className="nav-link d-none d-lg-block"

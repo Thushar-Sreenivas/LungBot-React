@@ -36,7 +36,7 @@ class Footer extends React.Component {
         <Container>
           <Row>
             <Col md="3">
-              <h1 className="title">BLK•</h1>
+              <h1 className="title">LungBot</h1>
             </Col>
             <Col md="3">
               <Nav>
@@ -74,7 +74,7 @@ class Footer extends React.Component {
                     About Us
                   </NavLink>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
                     Blog
                   </NavLink>
@@ -83,7 +83,7 @@ class Footer extends React.Component {
                   <NavLink href="https://opensource.org/licenses/MIT">
                     License
                   </NavLink>
-                </NavItem>
+                </NavItem> */}
               </Nav>
             </Col>
             <Col md="3">
