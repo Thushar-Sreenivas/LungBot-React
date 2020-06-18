@@ -227,7 +227,6 @@ class ComponentsNavbar extends React.Component {
                 <Button
                   className="nav-link d-none d-lg-block"
                   color="primary"
-                  target="_blank"
                   to="/register-page"
                   tag={Link}
                 >
@@ -238,22 +237,12 @@ class ComponentsNavbar extends React.Component {
                 <Button
                   className="nav-link d-none d-lg-block"
                   color="primary"
-                  target="_blank"
                   to="/landing-page"
                   tag={Link}
                 >
                   <i className="tim-icons icon-spaceship" /> Diagnose
                 </Button>
               </NavItem>
-              {/* <NavItem>
-                <Button
-                  className="nav-link d-none d-lg-block"
-                  color="default"
-                  onClick={this.scrollToDownload}
-                >
-                  <i className="tim-icons icon-cloud-download-93" /> Download
-                </Button>
-              </NavItem> */}
             </Nav>
           </Collapse>
         </Container>

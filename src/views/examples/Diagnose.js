@@ -106,21 +106,7 @@ const Diagnose = (props) => {
                   {errors.phone && <span>This field is required</span>}
                 </Col>
               </FormGroup>
-              <FormGroup row>
-                <Label for="occupation" sm={2} color="white">
-                  Occupation
-                </Label>
-                <Col sm={10}>
-                  <Input
-                    type="string"
-                    name="occupation"
-                    id="occupation"
-                    placeholder="Enter your Occupation"
-                    innerRef={register}
-                  />
-                  {/* {errors.occupation && <span>This field is required</span>} */}
-                </Col>
-              </FormGroup>
+              
               <FormGroup row>
                 <Label for="previousIllness" sm={2}>
                   Previous Illness
