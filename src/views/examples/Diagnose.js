@@ -19,9 +19,9 @@ const Diagnose = (props) => {
   return (
     <>
       <div className="wrapper">
-        <Card style={{width: '900px'}}>
+        <Card style={{width:'60%',margin:'auto',backgroundColor:'black'}}>
           <CardBody >
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <form onSubmit={handleSubmit(onSubmit)} style={{marginTop:'10px'}}>
               <FormGroup row>
                 <Label for="patientName" sm={2}>
                   Patient Name
@@ -106,7 +106,6 @@ const Diagnose = (props) => {
                   {errors.phone && <span>This field is required</span>}
                 </Col>
               </FormGroup>
-              
               <FormGroup row>
                 <Label for="previousIllness" sm={2}>
                   Previous Illness
@@ -152,7 +151,7 @@ const Diagnose = (props) => {
               </FormGroup>
               <FormGroup check row>
                 <Col sm={{ size: 10, offset: 2 }}>
-                  <Button>Submit</Button>
+                  <Button style={{marginLeft:'150px'}}>Submit</Button>
                 </Col>
               </FormGroup>
             </form>
