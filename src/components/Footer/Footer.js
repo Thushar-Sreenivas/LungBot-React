@@ -25,6 +25,8 @@ class Footer extends React.Component {
               <Nav>
                 <NavItem>
                   Contact Us 
+                  <p> Thushar - 9847112943</p>
+                  <p> Beno - 7907125556</p>
                 </NavItem>
               </Nav>
             </Col>
