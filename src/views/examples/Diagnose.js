@@ -12,15 +12,19 @@ import {
 } from "reactstrap";
 import { useForm } from "react-hook-form";
 
+
+
 const Diagnose = (props) => {
   const color = {color:'white',backgroundColor:'black'}
   const { register, handleSubmit, watch, errors } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+        
+  }
   console.log(watch("example")); // watch input value by passing the name of it
   return (
     <>
       <div className="wrapper">
-        <Card style={{width:'35%',margin:'auto',marginTop:'30px',backgroundColor:'black'}}>
+        <Card style={{width:'40%',margin:'auto',marginTop:'30px',backgroundColor:'black'}}>
           <CardBody >
             <form onSubmit={handleSubmit(onSubmit)} style={{marginTop:'10px'}}>
               <FormGroup row>
