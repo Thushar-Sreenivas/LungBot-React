@@ -93,11 +93,11 @@ class PagesNavbar extends React.Component {
               id="navbar-brand"
               tag={Link}
             >
-              <span>BLK• </span>
-              Design System React
+              <span>LungBot• </span>
+              Better care sooner
             </NavbarBrand>
             <UncontrolledTooltip placement="bottom" target="navbar-brand">
-              Designed and Coded by Creative Tim
+              Designed and Coded by CEC CS D 2020
             </UncontrolledTooltip>
             <button
               aria-expanded={this.state.collapseOpen}
@@ -120,7 +120,7 @@ class PagesNavbar extends React.Component {
               <Row>
                 <Col className="collapse-brand" xs="6">
                   <a href="#pablo" onClick={e => e.preventDefault()}>
-                    BLK•React
+                    LungBot
                   </a>
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
@@ -138,7 +138,7 @@ class PagesNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://twitter.com/CreativeTim"
+                  href="https://twitter.com"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Follow us on Twitter"
@@ -150,7 +150,7 @@ class PagesNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://www.facebook.com/CreativeTim"
+                  href="https://www.facebook.com"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Like us on Facebook"
@@ -162,7 +162,7 @@ class PagesNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://www.instagram.com/CreativeTimOfficial"
+                  href="https://www.instagram.com"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Follow us on Instagram"
@@ -172,22 +172,12 @@ class PagesNavbar extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <Button
-                  className="nav-link d-none d-lg-block"
-                  color="primary"
-                  target="_blank"
-                  href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-examples-navbar-upgrade-pro"
-                >
-                  <i className="tim-icons icon-spaceship" /> Upgrade to PRO
-                </Button>
-              </NavItem>
-              <NavItem>
                 <NavLink tag={Link} to="/">
                   Back to Kit
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/blk-design-system-react/issues">
+                <NavLink href="https://github.com/Thushar-Sreenivas/LungBot-React.git">
                   Have an issue?
                 </NavLink>
               </NavItem>
