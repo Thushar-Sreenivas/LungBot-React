@@ -24,14 +24,9 @@ class Footer extends React.Component {
             <Col md="3">
               <Nav>
                 <NavItem>
-                  <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
-                    Contact Us
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="https://creative-tim.com/about-us?ref=blkdsr-footer">
-                    About Us
-                  </NavLink>
+                  Contact Us 
+                  <p> Thushar - 9847112943</p>
+                  <p> Beno - 7907125556</p>
                 </NavItem>
               </Nav>
             </Col>
@@ -41,7 +36,7 @@ class Footer extends React.Component {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://twitter.com/creativetim"
+                  href=""
                   id="tooltip622135962"
                   target="_blank"
                 >
@@ -53,7 +48,7 @@ class Footer extends React.Component {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://www.facebook.com/creativetim"
+                  href=""
                   id="tooltip230450801"
                   target="_blank"
                 >
@@ -65,7 +60,7 @@ class Footer extends React.Component {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://dribbble.com/creativetim"
+                  href=""
                   id="tooltip318450378"
                   target="_blank"
                 >
