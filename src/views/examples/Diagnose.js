@@ -11,6 +11,7 @@ import {
   FormText,
 } from "reactstrap";
 import { useForm } from "react-hook-form";
+import PagesNavbar from "components/Navbars/ExamplesNavbar";
 
 const Diagnose = (props) => {
   const color = {color:'white',backgroundColor:'black'}
@@ -18,9 +19,9 @@ const Diagnose = (props) => {
   const onSubmit = (data) => console.log(data);
   console.log(watch("example")); // watch input value by passing the name of it
   return (
-    <>
+    <><PagesNavbar/>
       <div className="wrapper">
-        <Card style={{width:'35%',margin:'auto',marginTop:'40px',backgroundColor:'black'}}>
+        <Card style={{width:'35%',margin:'auto',marginTop:'100px',backgroundColor:'black'}}>
           <CardBody >
             <form onSubmit={handleSubmit(onSubmit)} style={{marginTop:'10px'}}>
               <FormGroup row>
