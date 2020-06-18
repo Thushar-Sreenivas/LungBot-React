@@ -20,7 +20,7 @@ const Diagnose = (props) => {
   return (
     <>
       <div className="wrapper">
-        <Card style={{width:'35%',margin:'auto',marginTop:'30px',backgroundColor:'black'}}>
+        <Card style={{width:'35%',margin:'auto',marginTop:'40px',backgroundColor:'black'}}>
           <CardBody >
             <form onSubmit={handleSubmit(onSubmit)} style={{marginTop:'10px'}}>
               <FormGroup row>
@@ -72,7 +72,7 @@ const Diagnose = (props) => {
                     type="number"
                     name="age"
                     id="age"
-                    placeholder="Enter your Age"
+                    placeholder="Enter Patient Age"
                     innerRef={register({ required: true })}
                   />
                   {errors.age && <span>This field is required</span>}
@@ -87,7 +87,7 @@ const Diagnose = (props) => {
                     type="email"
                     name="email"
                     id="email"
-                    placeholder="Enter your Email "
+                    placeholder="Enter Patient Email "
                     innerRef={register({ required: true })}
                   />
                   {errors.email && <span>This field is required</span>}
@@ -102,7 +102,7 @@ const Diagnose = (props) => {
                     type="number"
                     name="phone"
                     id="phone"
-                    placeholder="Enter your Phone Number"
+                    placeholder="Enter Patient Phone Number"
                     innerRef={register}
                   />
                   {errors.phone && <span>This field is required</span>}
@@ -117,7 +117,7 @@ const Diagnose = (props) => {
                     type="textarea"
                     name="previousIllness"
                     id="previousIllness"
-                    placeholder="Enter your previous illness if any"
+                    placeholder="Enter Patient illness history"
                     innerRef={register}
                   />
                   {/* {errors.occupation && <span>This field is required</span>} */}
@@ -149,6 +149,12 @@ const Diagnose = (props) => {
                 <Label check>
                   <Input type="checkbox" /> <span className="form-check-sign" />
                   Difficulty Breathing
+                </Label>
+              </FormGroup>
+              <FormGroup check>
+                <Label check>
+                  <Input type="checkbox" /> <span className="form-check-sign" />
+                  Diabetes
                 </Label>
               </FormGroup>
               <FormGroup check row>
