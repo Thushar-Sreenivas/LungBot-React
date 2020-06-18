@@ -11,6 +11,8 @@ import Index from "views/Index.js";
 import Diagnose from "views/examples/Diagnose.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import Result from './views/examples/Result.js';
+
 
 ReactDOM.render(
   <BrowserRouter>
@@ -28,7 +30,10 @@ ReactDOM.render(
         path="/profile-page"
         render={props => <ProfilePage {...props} />}
       />
-      <Redirect from="/" to="/components" />
+       <Route
+        path="/result"
+        component={Result}
+      />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
