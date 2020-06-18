@@ -11,6 +11,7 @@ import {
   FormText,
 } from "reactstrap";
 import { useForm } from "react-hook-form";
+import PagesNavbar from "components/Navbars/ExamplesNavbar";
 
 
 
@@ -22,7 +23,7 @@ const Diagnose = (props) => {
   }
   console.log(watch("example")); // watch input value by passing the name of it
   return (
-    <>
+    <><PagesNavbar/>
       <div className="wrapper">
         <Card style={{width:'40%',margin:'auto',marginTop:'30px',backgroundColor:'black'}}>
           <CardBody >
@@ -76,7 +77,7 @@ const Diagnose = (props) => {
                     type="number"
                     name="age"
                     id="age"
-                    placeholder="Enter your Age"
+                    placeholder="Enter Patient Age"
                     innerRef={register({ required: true })}
                   />
                   {errors.age && <span>This field is required</span>}
@@ -91,7 +92,7 @@ const Diagnose = (props) => {
                     type="email"
                     name="email"
                     id="email"
-                    placeholder="Enter your Email "
+                    placeholder="Enter Patient Email "
                     innerRef={register({ required: true })}
                   />
                   {errors.email && <span>This field is required</span>}
@@ -106,7 +107,7 @@ const Diagnose = (props) => {
                     type="number"
                     name="phone"
                     id="phone"
-                    placeholder="Enter your Phone Number"
+                    placeholder="Enter Patient Phone Number"
                     innerRef={register}
                   />
                   {errors.phone && <span>This field is required</span>}
@@ -121,7 +122,7 @@ const Diagnose = (props) => {
                     type="textarea"
                     name="previousIllness"
                     id="previousIllness"
-                    placeholder="Enter your previous illness if any"
+                    placeholder="Enter Patient illness history"
                     innerRef={register}
                   />
                   {/* {errors.occupation && <span>This field is required</span>} */}
@@ -153,6 +154,12 @@ const Diagnose = (props) => {
                 <Label check>
                   <Input type="checkbox" /> <span className="form-check-sign" />
                   Difficulty Breathing
+                </Label>
+              </FormGroup>
+              <FormGroup check>
+                <Label check>
+                  <Input type="checkbox" /> <span className="form-check-sign" />
+                  Diabetes
                 </Label>
               </FormGroup>
               <FormGroup check row>
