@@ -31,7 +31,6 @@
     "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
   },
   "homepage": " https://thushar-sreenivas.github.io/LungBot-React/",
-  
   "dependencies": {
     "chart.js": "2.9.3",
     "classnames": "2.2.6",
@@ -61,7 +60,7 @@
     "minify-sass": "node-sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.min.css --output-style compressed",
     "map-sass": "node-sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css --source-map true",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
