@@ -13,13 +13,14 @@ import {
 import { useForm } from "react-hook-form";
 
 const Diagnose = (props) => {
+  const color = {color:'white',backgroundColor:'black'}
   const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data) => console.log(data);
   console.log(watch("example")); // watch input value by passing the name of it
   return (
     <>
       <div className="wrapper">
-        <Card style={{width:'60%',margin:'auto',backgroundColor:'black'}}>
+        <Card style={{width:'35%',margin:'auto',marginTop:'30px',backgroundColor:'black'}}>
           <CardBody >
             <form onSubmit={handleSubmit(onSubmit)} style={{marginTop:'10px'}}>
               <FormGroup row>
@@ -55,9 +56,9 @@ const Diagnose = (props) => {
                     innerRef={register({ required: true })}
                     
                   >
-                    <option >Male</option>
-                    <option>Female</option>
-                    <option>Prefer not to say</option>
+                    <option style={color}>Male</option>
+                    <option style={color}>Female</option>
+                    <option style={color}>Prefer not to say</option>
                   </Input>
                   {errors.gender && <span>This field is required</span>}
                 </Col>
@@ -152,7 +153,7 @@ const Diagnose = (props) => {
               </FormGroup>
               <FormGroup check row>
                 <Col sm={{ size: 10, offset: 2 }}>
-                  <Button style={{marginLeft:'150px'}}>Submit</Button>
+                  <Button style={{marginLeft:'80px'}}>Submit</Button>
                 </Col>
               </FormGroup>
             </form>
