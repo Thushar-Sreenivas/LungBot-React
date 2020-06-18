@@ -19,7 +19,7 @@ const Diagnose = (props) => {
   return (
     <>
       <div className="wrapper">
-        <Card style={{width: '900px'}}>
+        <Card style={{width: '60%',margin:'auto',backgroundColor:'black'}}>
           <CardBody >
             <form onSubmit={handleSubmit(onSubmit)}>
               <FormGroup row>
@@ -53,8 +53,9 @@ const Diagnose = (props) => {
                     id="gender"
                     placeholder="Select"
                     innerRef={register({ required: true })}
+                    
                   >
-                    <option>Male</option>
+                    <option >Male</option>
                     <option>Female</option>
                     <option>Prefer not to say</option>
                   </Input>
