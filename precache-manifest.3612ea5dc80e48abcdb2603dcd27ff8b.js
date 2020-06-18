@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3780509ae8273e4505ba77cc4f66f5f9",
+    "revision": "ff0bd60dca53983c943d9d18f72d7251",
     "url": "/LungBot-React/index.html"
   },
   {
-    "revision": "713b20aedcbe1a75e778",
+    "revision": "0108ef27af24694f0035",
     "url": "/LungBot-React/static/css/main.8c6f7d52.chunk.css"
   },
   {
-    "revision": "9961a5af69535685df34",
-    "url": "/LungBot-React/static/js/2.84ec4349.chunk.js"
+    "revision": "be61844212a4e8f51e15",
+    "url": "/LungBot-React/static/js/2.4f6d63c1.chunk.js"
   },
   {
     "revision": "1bbf3207ff32fc1e12190f0b21fa7e98",
-    "url": "/LungBot-React/static/js/2.84ec4349.chunk.js.LICENSE.txt"
+    "url": "/LungBot-React/static/js/2.4f6d63c1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "713b20aedcbe1a75e778",
-    "url": "/LungBot-React/static/js/main.269fffc1.chunk.js"
+    "revision": "0108ef27af24694f0035",
+    "url": "/LungBot-React/static/js/main.88c759b7.chunk.js"
   },
   {
     "revision": "68be8c75e3bf81553fd7c35052453a64",
-    "url": "/LungBot-React/static/js/main.269fffc1.chunk.js.LICENSE.txt"
+    "url": "/LungBot-React/static/js/main.88c759b7.chunk.js.LICENSE.txt"
   },
   {
     "revision": "f6add208907cb8511915",
     "url": "/LungBot-React/static/js/runtime-main.d2b72f1d.js"
+  },
+  {
+    "revision": "d8a085474d0083803bbbe86aa508c8a7",
+    "url": "/LungBot-React/static/media/athul.d8a08547.jpeg"
+  },
+  {
+    "revision": "6a1d09ffe59e0f0643f56d09abd4f15f",
+    "url": "/LungBot-React/static/media/beno_sam.6a1d09ff.jpeg"
   },
   {
     "revision": "2ae3f9ecc812ca146d952de9c8e8c0ba",
@@ -66,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "be4a1748d0f94c35e0a661164495d160",
     "url": "/LungBot-React/static/media/mike.be4a1748.jpg"
+  },
+  {
+    "revision": "12c08e415c37111a1d800d4b08dcbbf2",
+    "url": "/LungBot-React/static/media/nithin.12c08e41.jpeg"
   },
   {
     "revision": "03ef1918e505c3e3471f9369ef7a638f",
@@ -130,5 +142,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ff004a0e5de54ba9dbd8583fa7e1b3f5",
     "url": "/LungBot-React/static/media/square5.ff004a0e.png"
+  },
+  {
+    "revision": "fb2571f2c644af2b1aa8fa978190f6a6",
+    "url": "/LungBot-React/static/media/thushar.fb2571f2.jpeg"
   }
 ]);

@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/LungBot-React/static/css/main.8c6f7d52.chunk.css",
-    "main.js": "/LungBot-React/static/js/main.269fffc1.chunk.js",
-    "main.js.map": "/LungBot-React/static/js/main.269fffc1.chunk.js.map",
+    "main.js": "/LungBot-React/static/js/main.88c759b7.chunk.js",
+    "main.js.map": "/LungBot-React/static/js/main.88c759b7.chunk.js.map",
     "runtime-main.js": "/LungBot-React/static/js/runtime-main.d2b72f1d.js",
     "runtime-main.js.map": "/LungBot-React/static/js/runtime-main.d2b72f1d.js.map",
-    "static/js/2.84ec4349.chunk.js": "/LungBot-React/static/js/2.84ec4349.chunk.js",
-    "static/js/2.84ec4349.chunk.js.map": "/LungBot-React/static/js/2.84ec4349.chunk.js.map",
+    "static/js/2.4f6d63c1.chunk.js": "/LungBot-React/static/js/2.4f6d63c1.chunk.js",
+    "static/js/2.4f6d63c1.chunk.js.map": "/LungBot-React/static/js/2.4f6d63c1.chunk.js.map",
     "index.html": "/LungBot-React/index.html",
-    "precache-manifest.5403d46f7aece130630346de46b9455d.js": "/LungBot-React/precache-manifest.5403d46f7aece130630346de46b9455d.js",
+    "precache-manifest.3612ea5dc80e48abcdb2603dcd27ff8b.js": "/LungBot-React/precache-manifest.3612ea5dc80e48abcdb2603dcd27ff8b.js",
     "service-worker.js": "/LungBot-React/service-worker.js",
     "static/css/main.8c6f7d52.chunk.css.map": "/LungBot-React/static/css/main.8c6f7d52.chunk.css.map",
-    "static/js/2.84ec4349.chunk.js.LICENSE.txt": "/LungBot-React/static/js/2.84ec4349.chunk.js.LICENSE.txt",
-    "static/js/main.269fffc1.chunk.js.LICENSE.txt": "/LungBot-React/static/js/main.269fffc1.chunk.js.LICENSE.txt",
+    "static/js/2.4f6d63c1.chunk.js.LICENSE.txt": "/LungBot-React/static/js/2.4f6d63c1.chunk.js.LICENSE.txt",
+    "static/js/main.88c759b7.chunk.js.LICENSE.txt": "/LungBot-React/static/js/main.88c759b7.chunk.js.LICENSE.txt",
+    "static/media/athul.jpeg": "/LungBot-React/static/media/athul.d8a08547.jpeg",
+    "static/media/beno_sam.jpeg": "/LungBot-React/static/media/beno_sam.6a1d09ff.jpeg",
     "static/media/denys.jpg": "/LungBot-React/static/media/denys.2ae3f9ec.jpg",
     "static/media/dots.png": "/LungBot-React/static/media/dots.b81dabc0.png",
     "static/media/fabien-bazanegue.jpg": "/LungBot-React/static/media/fabien-bazanegue.182796a2.jpg",
@@ -23,6 +25,7 @@
     "static/media/lora.jpg": "/LungBot-React/static/media/lora.96764d80.jpg",
     "static/media/mark-finn.jpg": "/LungBot-React/static/media/mark-finn.3a749d18.jpg",
     "static/media/mike.jpg": "/LungBot-React/static/media/mike.be4a1748.jpg",
+    "static/media/nithin.jpeg": "/LungBot-React/static/media/nithin.12c08e41.jpeg",
     "static/media/nucleo-icons.css": "/LungBot-React/static/media/nucleo.f0b489a5.woff",
     "static/media/path1.png": "/LungBot-React/static/media/path1.b1e01ebb.png",
     "static/media/path3.png": "/LungBot-React/static/media/path3.a70167ea.png",
@@ -31,12 +34,13 @@
     "static/media/profile-page.png": "/LungBot-React/static/media/profile-page.2515c8e5.png",
     "static/media/ryan.jpg": "/LungBot-React/static/media/ryan.9d4a558e.jpg",
     "static/media/square-purple-1.png": "/LungBot-React/static/media/square-purple-1.79c1998f.png",
-    "static/media/blk-design-system-react.scss?v=1.1.0": "/LungBot-React/static/media/square5.ff004a0e.png"
+    "static/media/blk-design-system-react.scss?v=1.1.0": "/LungBot-React/static/media/square5.ff004a0e.png",
+    "static/media/thushar.jpeg": "/LungBot-React/static/media/thushar.fb2571f2.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.d2b72f1d.js",
-    "static/js/2.84ec4349.chunk.js",
+    "static/js/2.4f6d63c1.chunk.js",
     "static/css/main.8c6f7d52.chunk.css",
-    "static/js/main.269fffc1.chunk.js"
+    "static/js/main.88c759b7.chunk.js"
   ]
 }

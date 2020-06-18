@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LungBot-React/precache-manifest.5403d46f7aece130630346de46b9455d.js"
+  "/LungBot-React/precache-manifest.3612ea5dc80e48abcdb2603dcd27ff8b.js"
 );
 
 self.addEventListener('message', (event) => {
