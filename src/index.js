@@ -33,7 +33,7 @@ import Result from './views/examples/Result.js';
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/components" render={props => <Index {...props} />} />
+      <Route path="/LungBot-React" render={props => <Index {...props} />} />
       <Route
         path="/landing-page"
         render={props => <Diagnose {...props} />}
