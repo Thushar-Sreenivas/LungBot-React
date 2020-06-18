@@ -172,13 +172,8 @@ class PagesNavbar extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/">
-                  Back to Kit
-                </NavLink>
-              </NavItem>
-              <NavItem>
                 <NavLink href="https://github.com/Thushar-Sreenivas/LungBot-React.git">
-                  Have an issue?
+                  See the Github Repository
                 </NavLink>
               </NavItem>
             </Nav>
