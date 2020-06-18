@@ -89,7 +89,7 @@ class PagesNavbar extends React.Component {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              to="/"
+              to="/LungBot-React"
               id="navbar-brand"
               tag={Link}
             >
