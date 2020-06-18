@@ -77,7 +77,7 @@ class PagesNavbar extends React.Component {
               id="navbar-brand"
               tag={Link}
             >
-              <span>LungBot• </span>
+              <span>LungBot • </span>
               Better care sooner
             </NavbarBrand>
             <UncontrolledTooltip placement="bottom" target="navbar-brand">
