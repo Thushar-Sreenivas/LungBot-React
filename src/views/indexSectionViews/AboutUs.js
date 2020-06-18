@@ -28,7 +28,7 @@ export default function AboutUs() {
                 <img
                   alt="..."
                   className="img-fluid rounded-circle shadow-lg"
-                  src={require("assets/img/mike.jpg")}
+                  src={require("assets/img/thushar.jpeg")}
                   style={{ width: "150px" }}
                   id="UncontrolledTooltipExample"
                 />
@@ -40,7 +40,7 @@ export default function AboutUs() {
                 <img
                   alt="..."
                   className="img-fluid rounded-circle shadow-lg"
-                  src={require("assets/img/ryan.jpg")}
+                  src={require("assets/img/beno_sam.jpeg")}
                   style={{ width: "150px" }}
                   id="BenoSamBinu"
                 />
@@ -52,7 +52,7 @@ export default function AboutUs() {
                 <img
                   alt="..."
                   className="img-fluid rounded-circle shadow-lg"
-                  src={require("assets/img/james.jpg")}
+                  src={require("assets/img/athul.jpeg")}
                   style={{ width: "150px" }}
                   id="AthulRajesh"
                 />
@@ -64,7 +64,7 @@ export default function AboutUs() {
                 <img
                   alt="..."
                   className="img-fluid rounded-circle shadow-lg"
-                  src={require("assets/img/james.jpg")}
+                  src={require("assets/img/nithin.jpeg")}
                   style={{ width: "150px" }}
                   id="NithinGeorgePhilips"
                 />
