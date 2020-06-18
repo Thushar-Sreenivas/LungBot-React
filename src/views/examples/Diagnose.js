@@ -25,7 +25,7 @@ const Diagnose = (props) => {
   return (
     <><PagesNavbar/>
       <div className="wrapper">
-        <Card style={{width:'40%',margin:'auto',marginTop:'30px',backgroundColor:'black'}}>
+        <Card style={{width:'40%',margin:'auto',marginTop:'120px',backgroundColor:'black'}}>
           <CardBody >
             <form onSubmit={handleSubmit(onSubmit)} style={{marginTop:'10px'}}>
               <FormGroup row>
