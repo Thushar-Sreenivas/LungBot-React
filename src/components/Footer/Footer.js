@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
@@ -9,7 +10,7 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip
+  UncontrolledTooltip,
 } from "reactstrap";
 
 class Footer extends React.Component {
@@ -24,7 +25,7 @@ class Footer extends React.Component {
             <Col md="3">
               <Nav>
                 <NavItem>
-                  Contact Us 
+                  Contact Us
                   <p> Thushar - 9847112943</p>
                   <p> Beno - 7907125556</p>
                 </NavItem>

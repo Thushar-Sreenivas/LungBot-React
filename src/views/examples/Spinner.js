@@ -1,7 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { css } from "@emotion/core";
-import ClipLoader from "react-spinners/ClipLoader";
-import PacmanLoader from "react-spinners/PacmanLoader";
 import RingLoader from "react-spinners/RingLoader";
 // Can be a string as well. Need to ensure each key-value pair ends with ;
 const override = css`
@@ -42,7 +41,6 @@ class SpinnerLungBot extends React.Component {
           Network
         </h1>
         {/* <h1>Spinner</h1> */}
-        {console.log("Spinner")}
         {/* <ClipLoader
           css={override}
           size={150}
