@@ -237,7 +237,8 @@ const Diagnose = () => {
 
                 <FormGroup row>
                   <Label for="lung_xray" sm={2}>
-                    Upload
+                      <Button>Upload</Button>
+                    
                   </Label>
                   <Col sm={10}>
                     <Input
