@@ -111,7 +111,7 @@ const Diagnose = () => {
       <PagesNavbar />
       <div className="wrapper">
         {/* <Card style={{width:'40%',margin:'auto',marginTop:'120px',backgroundColor:'black'}}> */}
-        {/* { showSpinner ? <h1>True</h1> : <h1>False</h1>  } */}
+        {/* {showSpinner ? <SpinnerLungBot /> : null} */}
         {showResultPage ? (
           // <SpinnerLungBot />
           <Result
