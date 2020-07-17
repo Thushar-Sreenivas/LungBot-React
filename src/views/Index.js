@@ -1,5 +1,4 @@
-
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
@@ -21,37 +20,34 @@ import Download from "views/IndexSections/Download.js";
 import IndexContent from "./indexSectionViews/IndexContent";
 import AboutUs from "./indexSectionViews/AboutUs";
 
-function Index () {
-
+function Index() {
   useEffect(() => {
     document.body.classList.toggle("index-page");
     return () => {
       document.body.classList.toggle("index-page");
-    }
-  })
- 
-    return (
-      <>
-        <IndexNavbar />
-        <div className="wrapper">
-          <PageHeader />
-          <div className="main">
-            <IndexContent />
-            <AboutUs />            
-          </div>
-          <Footer />
+    };
+  });
+
+  return (
+    <>
+      <IndexNavbar />
+      <div className="wrapper">
+        <PageHeader />
+        <div className="main">
+          <IndexContent />
+          <AboutUs />
         </div>
-      </>
-    );
+        <Footer />
+      </div>
+    </>
+  );
   // }
 }
 
 export default Index;
 
-
-
-
-{/* <Basics />
+{
+  /* <Basics />
             <Navbars />
             <Tabs />
             <Pagination />
@@ -61,4 +57,5 @@ export default Index;
             <NucleoIcons />
             <Signup />
             <Examples />
-            <Download /> */}
+            <Download /> */
+}

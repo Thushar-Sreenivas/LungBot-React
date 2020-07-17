@@ -1,20 +1,35 @@
-import React from 'react';
-
-
+import React from "react";
 
 const style = {
-  position: 'fixed',
-  top: '50%',
-  left: '50%',
-  marginTop: '-50px',
-  marginLeft: '-100px'
-}
+  // position: "fixed",
+  // top: "50%",
+  // left: "50%",
+  display: "flex",
+  marginTop: "250px",
+  marginLeft: "250px",
+};
 
-const Result = ()=>{
-    return (
-        <div style={style}>
-            <h1>Disease Prediction</h1>
-                 </div>
-    )
-}
+const Result = ({ patientDetails, diseasePredictedValue, selectedFile }) => {
+  console.log("patient Details", patientDetails);
+  return (
+    <div style={style}>
+      <img
+        src={selectedFile}
+        alt="X Ray"
+        style={{ width: "500px", height: "500px", marginRight: "40px" }}
+      />
+      <div>
+        <h1>Disease Prediction: {diseasePredictedValue}</h1>
+        <h2>Patient Name: {patientDetails.patient_name}</h2>
+        <h2>Doctor Name: Dr.James Thomas</h2>
+        <h2>Gender: {patientDetails.gender}</h2>
+        <h2>Age: {patientDetails.age}</h2>
+        <h2>Email: {patientDetails.email}</h2>
+        <h2>Phone: {patientDetails.phone}</h2>
+        <h2>Symptoms: {patientDetails.symptoms}</h2>
+        <h2>Previous illness: {patientDetails.previous_illness}</h2>
+      </div>
+    </div>
+  );
+};
 export default Result;

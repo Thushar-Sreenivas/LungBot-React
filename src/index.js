@@ -27,28 +27,24 @@ import Index from "views/Index.js";
 import Diagnose from "views/examples/Diagnose.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
-import Result from './views/examples/Result.js';
-
+import Result from "./views/examples/Result.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/LungBot-React" render={props => <Index {...props} />} />
-      <Route
-        path="/landing-page"
-        render={props => <Diagnose {...props} />}
-      />
+      <Route path="/LungBot-React" render={(props) => <Index {...props} />} />
+      <Route path="/landing-page" render={(props) => <Diagnose {...props} />} />
       <Route
         path="/register-page"
-        render={props => <RegisterPage {...props} />}
+        render={(props) => <RegisterPage {...props} />}
       />
       <Route
         path="/profile-page"
-        render={props => <ProfilePage {...props} />}
+        render={(props) => <ProfilePage {...props} />}
       />
-       <Route
+      {/* <Route
         path="/result"
-        component={Result}
+       render={props => <Result {...props} />} */}
       />
     </Switch>
   </BrowserRouter>,
